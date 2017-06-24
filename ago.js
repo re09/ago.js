@@ -13,6 +13,7 @@
  * 时间修饰组件
  * @param {number} timestamp 毫秒级时间戳
  * @param {number} limit 可不传 [2-n] 用于设置天数范围 默认值30
+ * @return {string}
  */
 function ago(timestamp, limit) {
 
