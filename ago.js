@@ -22,7 +22,7 @@ function ago(timestamp, limit) {
     var errMsg = 'error!';
 
     var now = new Date();
-    var diff = +now - timestamp;
+    var diff = now.getTime() - timestamp;
 
     /**
      * 补零
